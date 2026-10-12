@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[oc]
+
+# Build output
+dist/
+build/
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup of old nested git dir
+.git.bak/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
